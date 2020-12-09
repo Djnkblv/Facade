@@ -8,7 +8,7 @@ using namespace std;
 #include "dvdplayer.h"
 #include "cdplayer.h"
 #include "screen.h"
-#include "popcornpopper.h"
+#include "popcotnpropper.h"
 #include "theaterlights.h"
 #include "projector.h"
 

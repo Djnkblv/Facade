@@ -1,11 +1,23 @@
 #ifndef PROJECTOR_H
 #define PROJECTOR_H
+#include <QString>
+#include <iostream>
+#include "dvdplayer.h"
 
+using namespace std;
 
-class projector
+class Projector
 {
+private:
+    QString description;
+    DvdPlayer *dvdPlayer;
 public:
-    projector();
+    Projector(QString description, DvdPlayer *dvdPlayer);
+    void on();
+    void off();
+    void wideScreenMode();
+    void tvMode();
+    QString toString();
 };
 
 #endif // PROJECTOR_H
