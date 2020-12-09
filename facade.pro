@@ -13,7 +13,10 @@ SOURCES += \
         dvdplayer.cpp \
         hometheaterfacade.cpp \
         main.cpp \
+        popcotnpropper.cpp \
+        projector.cpp \
         screen.cpp \
+        theaterlights.cpp \
         tuner.cpp
 
 # Default rules for deployment.
@@ -26,5 +29,8 @@ HEADERS += \
     cdplayer.h \
     dvdplayer.h \
     hometheaterfacade.h \
+    popcotnpropper.h \
+    projector.h \
     screen.h \
+    theaterlights.h \
     tuner.h
