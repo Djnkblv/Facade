@@ -9,9 +9,11 @@ CONFIG -= app_bundle
 
 SOURCES += \
         amplifier.cpp \
+        cdplayer.cpp \
         dvdplayer.cpp \
         hometheaterfacade.cpp \
         main.cpp \
+        screen.cpp \
         tuner.cpp
 
 # Default rules for deployment.
@@ -21,6 +23,8 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 
 HEADERS += \
     amplifier.h \
+    cdplayer.h \
     dvdplayer.h \
     hometheaterfacade.h \
+    screen.h \
     tuner.h
